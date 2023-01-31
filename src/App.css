@@ -53,6 +53,6 @@ input {
 }
 .app{
   min-height: 100vh;
-  background-color: grey;
+  background-color: black;
   background-size:  100% 100%;
 }

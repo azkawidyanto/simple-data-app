@@ -66,7 +66,7 @@ const SearchPage = () => {
     <div className='app'>
       <div className="input-container">
         <form data-testid="custom-element" onSubmit={e => handleSubmitMinLife(e)}>
-          <label for="minLife">Minimal Life</label>
+          <label for="minLife" style={{marginRight:'1vw', color:'white'}}>Minimal Life</label>
           <input
             id="minLife"
             style={{ marginRight: '1vw' }}
@@ -76,11 +76,11 @@ const SearchPage = () => {
             onChange={e => setSearchMinLife(e.target.value)}
           />
 
-          <button variant="solid">Search</button>
+          <button variant="solid" style={{marginRight:'1vw'}}>Search</button>
         </form>
 
         <form data-testid="custom-element" onSubmit={e => handleSubmitFilter(e)}>
-          <label for="minLife">Filter</label>
+          <label for="minLife" style={{marginRight:'1vw', color:'white'}}>Filter</label>
           <input
             id="minLife"
             style={{ marginRight: '1vw' }}
