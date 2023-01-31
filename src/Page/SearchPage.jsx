@@ -63,7 +63,7 @@ const SearchPage = () => {
   }, [dataCats]);
 
   return (
-    <div style={{ backgroundColor: 'grey', maxHeight: 'fit-content' }}>
+    <div className='app'>
       <div className="input-container">
         <form data-testid="custom-element" onSubmit={e => handleSubmitMinLife(e)}>
           <label for="minLife">Minimal Life</label>
