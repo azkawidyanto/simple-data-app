@@ -1,42 +1,53 @@
-.container{
+.container {
   max-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   flex-direction: row;
   margin-top: 20px;
 }
 
-.card{
+.card {
   background-color: wheat;
   width: '10vw';
+  margin: 5vw;
 }
 
-.container-data{
-  width:20vw; 
+.container-data {
+  width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   h2{
     size: 10px;
-    color:black;
+    color: black;
   }
-  h3{
+  h3 {
     size: 8px;
-    color:black;
+    color: black;
   }
 }
 
-.input-container{
+.input-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width:100vw;
+  width: 100vw;
   padding-top: 40px;
 }
 
-input{
+input {
   margin-right: 30px;
+}
+
+.show-data{
+  display: flex;
+  flex-direction: row;
+}
+
+.cat-data{
+    display: flex;
+  flex-direction: column;
 }

@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 
 export const catSlice = createSlice({
   name: 'cat',
@@ -6,13 +6,13 @@ export const catSlice = createSlice({
     cats: [],
   },
   reducers: {
-    storeCats: (state,action)=>{
+    storeCats: (state, action) => {
       state.cats = action.payload;
     },
   },
-})
+});
 
 // Action creators are generated for each case reducer function
-export const { storeCats } = catSlice.actions
+export const { storeCats } = catSlice.actions;
 
-export default catSlice.reducer
+export default catSlice.reducer;
